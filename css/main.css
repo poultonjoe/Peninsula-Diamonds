@@ -249,16 +249,22 @@ section {
 section h2 {
 	font-size: 36px;
 	font-weight: 300;
+	font-family: times;
 	color: #000000;
 	margin: 0;
-	padding: 0;
 	line-height: 1em;
+}
+section h3 {
+	color: #808080;
+	font-weight: 200;
+	line-height: 0.0125em;
+
 }
 section p {
 	font-weight: 300;
 	margin-bottom: 30px;
-	font-size: 1.1875em;
-	line-height: 1.6316;
+	font-size: 1.1em;
+	line-height: 1.5;
 	color: #808080;
 }
 .section-content,
@@ -430,8 +436,12 @@ section p {
 		width: 9%;
 		height: auto;
 	}
-	.viewing-page-3 .fake-content {
-		top: 0%;
+	.viewing-page-3 .fake-content {z-index:1;
+		-webkit-transform:translate3d(0, 230px, 0);
+		   -moz-transform:translate3d(0, 230px, 0);
+		        transform:translate3d(0, 230px, 0);
+
+		        		top: -230px;
 		-webkit-transition:top .9s;
 		-moz-transition:top .9s;
 		-o-transition:top .9s;
@@ -442,6 +452,7 @@ section p {
 		margin-top: -150px;
 		width: 5.5%;
 		height: auto;
+
 	}
 	.viewing-page-3 .fake-content .ring-fake-content {
 		margin-left: 4px;
@@ -464,12 +475,17 @@ section p {
 		width: 9%;
 		height: auto;
 	}
-	.viewing-page-4 .fake-content {
-		top: 100%;
+	.viewing-page-4 .fake-content {z-index:1;
+		-webkit-transform:translate3d(0, 230px, 0);
+		   -moz-transform:translate3d(0, 230px, 0);
+		        transform:translate3d(0, 230px, 0);
+
+		        		top: calc(100% - 230px);
 		-webkit-transition:top .9s;
 		-moz-transition:top .9s;
 		-o-transition:top .9s;
 		transition: top .9s;
+
 	}
 	.viewing-page-4 .fake-content .tweezers-fake-content {
 		margin-left: 20px;
@@ -525,11 +541,11 @@ section p {
 		        transform:translate3d(61.6%, 0, 0);
 	}
 	#revealAnim .images-container .side { z-index:3;
-		-webkit-transform:translate3d(-338%, 0, 0);
-		   -moz-transform:translate3d(-338%, 0, 0);
-		        transform:translate3d(-338%, 0, 0);
+		-webkit-transform:translate3d(-335%, 0, 0);
+		   -moz-transform:translate3d(-335%, 0, 0);
+		        transform:translate3d(-335%, 0, 0);
 	}
-	.viewing-page-2 #revealAnim .images-container img {
+	.viewing-page-6 #revealAnim .images-container img {
 		-webkit-transform: translate3d(0, 0, 0) !important;
 		-moz-transform: translate3d(0, 0, 0) !important;
 		transform: translate3d(0, 0, 0) !important;
@@ -603,6 +619,7 @@ section p {
 
 	input[type=submit] {
 		background-color: #3e8db4;
+		font-weight: 200;
 		color: #ffffff; 
 		border-radius: 4px;
 		border: none;
