@@ -570,6 +570,12 @@ section p {
 		margin-top: -100px;
 	}
 
+			#betweenSlidesAnimEnd3 .copy-container {
+		width: 35%;
+		margin-left: 60px;
+		top: 55%;
+	}
+
 	.viewing-page-8 #betweenSlidesAnimEnd3 .images-container img {
 		-webkit-transition: -webkit-transform .9s;
 		-moz-transition: -moz-transform .9s;
@@ -579,11 +585,7 @@ section p {
 		-moz-transform: translate3d(100%, 0, 0) !important;
 		transform: translate3d(100%, 0, 0) !important;
 	}
-		#betweenSlidesAnimEnd3 .copy-container {
-		width: 35%;
-		margin-left: 60px;
-		margin-top: -400px;
-	}
+
 
 	#betweenSlidesAnimEnd3 .images-container-clarity {
 		position: relative;
