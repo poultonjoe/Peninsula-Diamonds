@@ -561,8 +561,19 @@ section p {
 	/*education*/
 
 	#betweenSlidesAnimEnd3 .images-container {
-		margin-left: -900px;
+		margin-left: -1700px;
 		margin-top: -100px;
+	}
+
+	.viewing-page-8 #betweenSlidesAnimEnd3 .images-container img {
+		z-index: 1;
+		-webkit-transition: -webkit-transform .9s;
+		-moz-transition: -moz-transform .9s;
+		transition: transform .9s;
+
+		-webkit-transform: translate3d(100%, 0, 0) !important;
+		-moz-transform: translate3d(100%, 0, 0) !important;
+		transform: translate3d(100%, 0, 0) !important;
 	}
 		#betweenSlidesAnimEnd3 .copy-container {
 		width: 35%;
@@ -907,15 +918,9 @@ html body .top-menu .social-links-list--ig:hover {
 		left: 50%;
 	}
 	#betweenSlidesAnimEnd3 .images-container img {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
         position: relative;
         float: right;
-        right: -45px;
+        right: -300px;
         width: 35%;
 	}
 	#betweenSlidesAnimEnd4 .copy-container {
