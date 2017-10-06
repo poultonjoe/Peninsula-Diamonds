@@ -107,9 +107,9 @@ textarea {
 		.entry-title-mobile {
 		display: inline-block;
 		float: left;
-		margin-top: -8px;
-		margin-bottom: 13px;
-		font-size: 1.75em;
+		margin-top: -20px;
+		margin-bottom: 8px;
+		font-size: 1.4em;
 		}
 	}
 
@@ -136,6 +136,7 @@ textarea {
 	@media only screen and (max-width: 76em) {
 
 		#nav-icon1 {
+		  margin-top: -15px;
 		  width: 35px;
 		  height: 25px;
 		  display: inline-block;
@@ -154,7 +155,7 @@ textarea {
 		#nav-icon1 span {
 		  display: inline-block;
 		  position: absolute;
-		  height: 5px;
+		  height: 3px;
 		  width: 100%;
 		  background: #333;
 		  border-radius: 3px;
