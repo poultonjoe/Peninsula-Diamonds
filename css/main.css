@@ -558,6 +558,10 @@ section p {
 		display: none;
 	}
 
+	#revealAnim .images-container-clarity {
+		display: none;
+	}
+
 	/*education*/
 
 	#betweenSlidesAnimEnd3 .images-container {
@@ -577,7 +581,12 @@ section p {
 		#betweenSlidesAnimEnd3 .copy-container {
 		width: 35%;
 		margin-left: 60px;
-		margin-top: -130px;
+		margin-top: -400px;
+	}
+
+	#betweenSlidesAnimEnd3 .images-container-clarity {
+		position: relative;
+		display: none;
 	}
 
 	#betweenSlidesAnimEnd4 .images-container {
@@ -806,7 +815,7 @@ html body .top-menu .social-links-list--ig:hover {
 	
 	#fadeInAnim img {
 		position: inline;
-		top: 15%;
+		top: 9%;
 		left: -115px;
 		width: 180px;
 	}
@@ -817,7 +826,7 @@ html body .top-menu .social-links-list--ig:hover {
 	#revealAnim .copy-container {
 		display: inline-block;
 		position: relative;
-		top: 20%;
+		top: 17%;
 		left: -60px;
 		width: 80%;
 	}
@@ -827,8 +836,8 @@ html body .top-menu .social-links-list--ig:hover {
 		left: -20px;
 	}
 	#revealAnim .images-container-replacement img {
-		margin-top: 20%;
-		width: 70%;
+		margin-top: 15%;
+		width: 65%;
 		height: auto;
 	}
 	#betweenSlidesAnimStart .copy-container {
@@ -909,19 +918,41 @@ html body .top-menu .social-links-list--ig:hover {
 		width: 80%;
 	}
 	#betweenSlidesAnimEnd3 .images-container {
-		display: inline-block;
+		display: hidden;
 		position: relative;
 		height: auto;
 		top: 5%;
 		right: 50%
 		left: 50%;
 	}
-	#betweenSlidesAnimEnd3 .images-container img {
+	
+	#betweenSlidesAnimEnd3 .images-container-clarity {
+		display: inline-block;
+		position: relative;
+		height: auto;
+		top: 10%;
+		right: 50%
+		left: 50%;
+	}
+	#betweenSlidesAnimEnd3 .images-container-clarity img {
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
         position: relative;
         float: right;
-        right: -300px;
-        width: 35%;
+        right: 20px;
+        width: 45%;
 	}
+
+
+
+
+
+
+
 	#betweenSlidesAnimEnd4 .copy-container {
 		display: inline-block;
 		position: relative;
