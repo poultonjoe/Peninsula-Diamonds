@@ -530,9 +530,9 @@ section p {
 		float: left;
 		position: relative;
 		z-index: 1;
-		-webkit-transition: -webkit-transform .6s .9s;
-		-moz-transition: -moz-transform .6s .9s;
-		transition: transform .6s .9s;
+		-webkit-transition: -webkit-transform .9s;
+		-moz-transition: -moz-transform .9s;
+		transition: transform .9s;
 	}
 	#revealAnim .images-container .back { z-index:1;
 		-webkit-transform:translate3d(-40%, 0, 0);
@@ -566,7 +566,6 @@ section p {
 	}
 
 	.viewing-page-8 #betweenSlidesAnimEnd3 .images-container img {
-		z-index: 1;
 		-webkit-transition: -webkit-transform .9s;
 		-moz-transition: -moz-transform .9s;
 		transition: transform .9s;
