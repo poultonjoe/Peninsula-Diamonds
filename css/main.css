@@ -123,6 +123,8 @@ textarea {
 		display: inline-block;
 		float: right;
 		margin: 3px 30px 20px 0;
+		font-family: 'open sans', sans-serif;
+		font-weight: 300;
 	}
 
 	@media only screen and (max-width: 76em) {
@@ -255,12 +257,14 @@ section h2 {
 	line-height: 1em;
 }
 section h3 {
+	font-family: 'open sans', sans-serif;
 	color: #808080;
 	font-weight: 200;
 	line-height: 0.0125em;
 
 }
 section p {
+	font-family: 'open sans', sans-serif;
 	font-weight: 300;
 	margin-bottom: 30px;
 	font-size: 1.1em;
@@ -317,7 +321,7 @@ section p {
 	}
 	#fadeInAnim img {
 		position: absolute;
-		bottom: 200px;
+		bottom: 35%;
 		margin-left: 100px;
 		width: 40%;
 	}
@@ -392,7 +396,7 @@ section p {
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		margin-top: -210px;
+		margin-top: -130px;
 		margin-left: 40px;
 		width: 35%;
 		z-index: 1;
@@ -577,10 +581,11 @@ section p {
 	}
 
 	#betweenSlidesAnimEnd4 .images-container img {
-		float: left;
+		float: right;
 		position: relative;
-		width: 90%;
+		width: 80%;
 		height: auto;
+		margin-top: -4%;
 		z-index: -5;
 	}
 
@@ -600,7 +605,7 @@ section p {
 	#betweenSlidesAnimStart2 .copy-container {
 		width: 35%;
 		margin-left: 60px;
-		margin-top: -130px;
+		margin-top: -110px;
 	}
 
 	/*loose stones*/
@@ -788,9 +793,10 @@ html body .top-menu .social-links-list--ig:hover {
 		left: 0px;
 		width: 80%;
 	}
+	
 	#fadeInAnim img {
-		position: relative;
-		top: -20%;
+		position: inline;
+		top: 15%;
 		left: -115px;
 		width: 180px;
 	}
@@ -808,6 +814,7 @@ html body .top-menu .social-links-list--ig:hover {
 	#revealAnim .images-container-replacement {
 		display: inline-block;
 		position: relative;
+		left: -20px;
 	}
 	#revealAnim .images-container-replacement img {
 		margin-top: 20%;
@@ -856,7 +863,7 @@ html body .top-menu .social-links-list--ig:hover {
 	#betweenSlidesAnimEnd .copy-container {
 		display: inline-block;
 		position: relative;
-		top: 50%;
+		top: 40%;
 		left: -40px;
 		width: 80%;
 	}
