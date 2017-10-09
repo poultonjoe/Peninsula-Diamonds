@@ -34,6 +34,12 @@ $(document).ready(function() {
     $('.entry-header').toggleClass('open');
   });
 
+$('.top-menu-link > a').click(function() {
+  setTimeout(function() {
+    $('.entry-header').removeClass('open');
+  }, 1000);
+});
+
   $('.top-menu-link > a').click(function() {
     var section = $(this)
       .attr('href')
@@ -41,3 +47,5 @@ $(document).ready(function() {
     $('.main').moveTo(section);
   });
 });
+
+
